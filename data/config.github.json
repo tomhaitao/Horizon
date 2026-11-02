@@ -1,12 +1,15 @@
 {
   "ai": {
-    "provider": "google",
+    "provider": "gemini",
     "model": "gemini-2.5-flash",
     "api_key_env": "GOOGLE_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
     "throttle_sec": 1,
-    "languages": ["zh", "en"],
+    "languages": [
+      "zh",
+      "en"
+    ],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
   },
@@ -14,34 +17,125 @@
     "profiles_dir": "profiles",
     "default_profile": "tech-news",
     "profile_settings": {
-      "tech-news": {"threshold": 7.0, "topic_dedup": true},
-      "tech-blog": {"threshold": 4.0, "topic_dedup": false},
-      "finance-news": {"threshold": 7.0, "topic_dedup": true}
+      "tech-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      },
+      "tech-blog": {
+        "threshold": 4.0,
+        "topic_dedup": false
+      },
+      "finance-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      }
     }
   },
-  "display": {"icon_style": "emoji"},
-  "email": {"enabled": false},
+  "display": {
+    "icon_style": "emoji"
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_server": "imap.qq.com",
+    "imap_port": 993,
+    "email_address": "xxx@qq.com",
+    "sender_name": "Horizon Daily",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
+  },
   "sources": {
     "github": [
-      {"type": "user_events", "username": "karpathy", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "vllm-project", "repo": "vllm", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "sgl-project", "repo": "sglang", "enabled": true, "profile": "tech-news"}
+      {
+        "type": "user_events",
+        "username": "karpathy",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "vllm-project",
+        "repo": "vllm",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "sgl-project",
+        "repo": "sglang",
+        "enabled": true,
+        "profile": "tech-news"
+      }
     ],
-    "hackernews": {"enabled": true, "fetch_top_stories": 30, "min_score": 100, "profile": "tech-news"},
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 30,
+      "min_score": 100,
+      "profile": "tech-news"
+    },
     "rss": [
-      {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "enabled": true, "category": "ai-tools", "profile": "tech-news"},
-      {"name": "vLLM Blog", "url": "https://vllm.ai/blog/rss.xml", "enabled": true, "category": "llm-inference", "profile": "tech-blog", "content_extractor": "trafilatura"}
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools",
+        "profile": "tech-news"
+      },
+      {
+        "name": "vLLM Blog",
+        "url": "https://vllm.ai/blog/rss.xml",
+        "enabled": true,
+        "category": "llm-inference",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      }
     ],
     "reddit": {
       "enabled": true,
       "subreddits": [
-        {"subreddit": "LocalLLaMA", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 15, "min_score": 50, "profile": "tech-news"},
-        {"subreddit": "ChatGPT", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 15, "min_score": 100, "profile": "tech-news"},
-        {"subreddit": "artificial", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 15, "min_score": 50, "profile": "tech-news"},
-        {"subreddit": "SideProject", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 10, "min_score": 30, "profile": "tech-news"}
+        {
+          "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 50,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "ChatGPT",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 100,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 50,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "SideProject",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-news"
+        }
       ],
       "fetch_comments": 5
     },
-    "twitter": {"enabled": false, "users": []}
+    "twitter": {
+      "enabled": false,
+      "users": []
+    }
   }
 }
