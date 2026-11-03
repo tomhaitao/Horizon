@@ -5,16 +5,19 @@ date: 2026-11-03
 lang: en
 ---
 
-> From 33 items, 5 important content pieces were selected
+> From 34 items, 8 important content pieces were selected
 
 ---
 
 **Technology News**
 1. [Astra can read and write weights to improve Qwen](#item-tech-news-1) ⭐️ 9.0/10
-2. [WTF Ubuntu?](#item-tech-news-2) ⭐️ 9.0/10
-3. [vllm-project/vllm released v0.33.0rc3](#item-tech-news-3) ⭐️ 8.0/10
-4. [sgl-project/sglang released v0.5.23](#item-tech-news-4) ⭐️ 8.0/10
-5. [If you love a website, back it up](#item-tech-news-5) ⭐️ 7.5/10
+2. [vllm-project/vllm released v0.33.0rc3](#item-tech-news-2) ⭐️ 8.0/10
+3. [Launch HN: Momentic \(YC W24\) – Agents that catch bugs by using your app](#item-tech-news-3) ⭐️ 8.0/10
+4. [Show HN: Subvocal – Talk to your computer without making noise](#item-tech-news-4) ⭐️ 8.0/10
+5. [Egoless Mathematics in the AI Era](#item-tech-news-5) ⭐️ 8.0/10
+6. [sgl-project/sglang released v0.5.23](#item-tech-news-6) ⭐️ 7.0/10
+7. [If you love a website, back it up](#item-tech-news-7) ⭐️ 7.0/10
+8. [Anthropic&\#x27;s growth just flattened](#item-tech-news-8) ⭐️ 7.0/10
 
 ---
 
@@ -23,54 +26,87 @@ lang: en
 <a id="item-tech-news-1"></a>
 ### [Astra can read and write weights to improve Qwen](https://rikiyat.github.io/blog/weight-space-programming/) ⭐️ 9.0/10
 
-A groundbreaking development demonstrates an LLM&\#x27;s ability to directly manipulate the weights of another model to diagnose and fix performance issues, such as improving math skills or eliminating repetitive loops.
+A new AI system named Astra demonstrates the groundbreaking ability to directly analyze and modify the internal weights of other large language models, such as Qwen, to dramatically improve their performance and resolve complex issues like repetitive output.
 
 hackernews · dbreunig · Nov 2, 18:21 · [Discussion](https://news.ycombinator.com/item?id=50341174)
 
-**Tags**: `#Artificial Intelligence`, `#Machine Learning`, `#LLM Development`, `#Neural Networks`, `#AI Research`
+**Tags**: `#Artificial Intelligence`, `#Machine Learning`, `#Neural Networks`, `#AI Optimization`, `#Meta-learning`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [WTF Ubuntu?](https://chalmovsky.com/posts/wtf-ubuntu) ⭐️ 9.0/10
+### [vllm-project/vllm released v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) ⭐️ 8.0/10
 
-This content highlights a critical kernel vulnerability in Ubuntu, detailing its severity, patch status, and the community&\#x27;s debate over its potential for denial of service versus remote code execution.
+This vLLM release candidate significantly expands supported models, including large MoE architectures, and updates core dependencies like PyTorch and CUDA, making it a high-value update for LLM inference.
 
-hackernews · chalmovsky · Nov 2, 14:52 · [Discussion](https://news.ycombinator.com/item?id=50337608)
+github · khluu · Nov 2, 10:10
 
-**Tags**: `#Ubuntu`, `#Linux Kernel`, `#Security`, `#Vulnerability`, `#Open Source`
+**Tags**: `#Large Language Models`, `#AI Inference`, `#Machine Learning Infrastructure`, `#Open Source`, `#Software Engineering`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [vllm-project/vllm released v0.33.0rc3](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) ⭐️ 8.0/10
+### [Launch HN: Momentic \(YC W24\) – Agents that catch bugs by using your app](https://momentic.ai/) ⭐️ 8.0/10
 
-This vLLM release introduces support for many new large language models, upgrades core dependencies like PyTorch, and refines CUDA compatibility, making it a critical update for AI/ML practitioners.
+Momentic offers AI-powered QA agents that autonomously interact with and test web, mobile, and desktop applications to identify bugs, providing a novel solution for a critical software development challenge.
 
-github · khluu · Nov 2, 10:10
+hackernews · wuweiweiwu · Nov 2, 17:05 · [Discussion](https://news.ycombinator.com/item?id=50339913)
 
-**Tags**: `#Large Language Models`, `#AI/ML Inference`, `#Open Source Software`, `#Deep Learning Frameworks`, `#GPU Computing`
+**Tags**: `#Software Engineering`, `#Quality Assurance`, `#Artificial Intelligence`, `#Developer Tools`, `#Automated Testing`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [sgl-project/sglang released v0.5.23](https://github.com/sgl-project/sglang/releases/tag/v0.5.23) ⭐️ 8.0/10
+### [Show HN: Subvocal – Talk to your computer without making noise](https://news.ycombinator.com/item?id=50340088) ⭐️ 8.0/10
 
-The sglang v0.5.23 release significantly expands the framework&\#x27;s capabilities by adding support for a wide array of new Large Language Models, Vision-Language Models, and Diffusion models.
+Subvocal introduces smart glasses capable of decoding silent mouthing or &\#x27;internal speech&\#x27; into text, offering a novel and discreet method for human-computer interaction with significant implications for accessibility and AI.
 
-github · Fridge003 · Nov 2, 22:14
+hackernews · aarushyadav · Nov 2, 17:16
 
-**Tags**: `#Artificial Intelligence`, `#Machine Learning`, `#Large Language Models`, `#Open Source`, `#Software Development`
+**Tags**: `#Human-Computer Interaction`, `#Artificial Intelligence`, `#Wearable Technology`, `#Speech Recognition`, `#Accessibility`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [If you love a website, back it up](https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/) ⭐️ 7.5/10
+### [Egoless Mathematics in the AI Era](https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/) ⭐️ 8.0/10
 
-This discussion emphasizes the necessity of backing up valuable websites to combat digital decay and information loss, providing practical tools and exploring the implications for future information access, including the role of AI.
+A renowned mathematician explores the philosophical concept of &\#x27;egoless mathematics&\#x27; and the evolving role of human mathematicians in an era increasingly influenced by artificial intelligence.
+
+hackernews · smilelamp · Nov 2, 18:54 · [Discussion](https://news.ycombinator.com/item?id=50341736)
+
+**Tags**: `#Artificial Intelligence`, `#Mathematics`, `#Human-AI Interaction`, `#Philosophy of Science`, `#Future of Research`
+
+---
+
+<a id="item-tech-news-6"></a>
+### [sgl-project/sglang released v0.5.23](https://github.com/sgl-project/sglang/releases/tag/v0.5.23) ⭐️ 7.0/10
+
+This release of sglang, an LLM inference acceleration library, introduces support for a diverse set of new large language, vision-language, and diffusion models, enhancing its capabilities for AI developers.
+
+github · Fridge003 · Nov 2, 22:14
+
+**Tags**: `#Artificial Intelligence`, `#Machine Learning`, `#Large Language Models`, `#Open Source`, `#Diffusion Models`
+
+---
+
+<a id="item-tech-news-7"></a>
+### [If you love a website, back it up](https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/) ⭐️ 7.0/10
+
+This content emphasizes the necessity of individually archiving cherished websites and online resources, providing practical tools and discussing the challenges of digital preservation in an evolving internet landscape, including the role and limitations of AI.
 
 hackernews · ingve · Nov 2, 13:25 · [Discussion](https://news.ycombinator.com/item?id=50336518)
 
-**Tags**: `#Digital Preservation`, `#Web Archiving`, `#Information Longevity`, `#Software Tools`, `#Artificial Intelligence`
+**Tags**: `#Digital Preservation`, `#Web Archiving`, `#Information Integrity`, `#Software Tools`, `#Artificial Intelligence`
+
+---
+
+<a id="item-tech-news-8"></a>
+### [Anthropic&\#x27;s growth just flattened](https://www.regenerator1.com/p/anthropics-growth-just-flattened) ⭐️ 7.0/10
+
+Despite a misleading title, the community discussion provides timely and accurate official financial data refuting claims of flattened growth for Anthropic, offering valuable insights into the AI market and competitive landscape.
+
+hackernews · cdrnsf · Nov 2, 22:33 · [Discussion](https://news.ycombinator.com/item?id=50344958)
+
+**Tags**: `#Artificial Intelligence`, `#Technology Industry`, `#Company Growth`, `#Market Dynamics`, `#Financial Performance`
 
 ---
